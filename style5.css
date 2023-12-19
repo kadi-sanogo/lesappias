@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+    
+}
+
+header{
+    
+}
+
+
+.principale{
+    width: 100%;
+    height: 50px;
+    margin: 10px auto ;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 2px 15px rgb(165, 165, 165);
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  
+}
+
+
+ul li a:hover{
+    background: rgb(209, 82, 82);
+    color:darkblue;
+
+}
+
+ul li.active a{
+    background: rgb(212, 26, 26);
+    color:darkblue;
+
+}
+
+.titre{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50% -50%);
+}
+.titre h1{
+    color:darksalmon;
+    font-size: 40px;
+}
+
+
+
+
+
+.glide{
+    width: 70%; 
+    margin: auto;
+}
+.info h3 {
+   
+    background-color: blue;
+    padding-top: 5px;
+    text-align: center;
+    height: 35px;
+    margin-top: 15px;
+}
+.imageX{
+    width: 50%;
+    height: 10px;
+    position: absolute;
+}
+
+/*.st img{
+    width: 100%;
+    height: 200px;
+}*/
+.image2 {
+    width: 50%;
+    height: 40%;
+    
+    margin-top: 375px;
+    margin-left: 200px;
+}
+.grand-titre1{
+    text-align: left;
+    left: 90%;
+    margin-left: 50%;
+    margin-top: -380px;
+}
+
+.texte1{
+    position:absolute;
+    left: 35%;
+    top: 65%;
+    font-size: 25px;
+    width: 600px;
+}
+.image3 {
+    width: 50%;
+    height: 50%;
+    
+    margin-top: 400px;
+    margin-left: 1150px;
+}
+.grand-titre2{
+    text-align: left;
+    left: 50%;
+   margin-left: 12%;
+   margin-top: -20%;
+    
+}
+.texte2{
+    position:absolute;
+    left: 8%;
+    top: 110%;
+    font-size: 25px;
+    width: 500px;
+    
+}
+/*
+body{
+    background-image: url('./image/appi4.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+
+}*/
+
+
+
+footer {
+    display: flex;
+    justify-content:space-around;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(24, 54, 74);  
+    bottom: 0px;
+    margin-top: 20%;
+    
+}
+
+
+.contact img {
+    width: 20px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+  
+}
+.logoappia img{
+    width: 50px;
+
+}

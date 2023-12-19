@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+    
+}
+
+header{
+    
+}
+
+
+.principale{
+    width: 100%;
+    height: 50px;
+    margin: 10px auto ;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 2px 15px rgb(165, 165, 165);
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  
+}
+
+
+ul li a:hover{
+    background: rgb(209, 82, 82);
+    color:darkblue;
+
+}
+
+ul li.active a{
+    background: rgb(212, 26, 26);
+    color:darkblue;
+
+}
+
+.titre{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50% -50%);
+}
+.titre h1{
+    color:darksalmon;
+    font-size: 40px;
+}
+
+
+
+.glide{
+    width: 70%; 
+    margin: auto;
+}
+.info h3 {
+   
+    background-color: blue;
+    padding-top: 5px;
+    text-align: center;
+    height: 35px;
+    margin-top: 15px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 450px;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(24, 54, 74);   
+}
+
+
+.contact img {
+    width: 20px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+  
+}
+.logoappia img{
+    width: 50px;
+
+}
+
+.imageL {
+    width: 50%;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 150px;
+    position: right;
+    
+}
+
+
+.texteL{
+    position:right;
+    left: 50%;
+    top: 150%;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 390px;
+    margin-top: 15px
+    
+}
+
+.grand-titreL{
+    text-align: left;
+    left: 50%;
+    margin-left: 40%;
+    margin-top: -500px;
+    color:chocolate;
+    font-size: 25px;
+}
+.h3{
+    color:brown;
+    left: 50px;
+    position: center;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.h4{
+    color:brown;
+    left: 50px;
+    position: center;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.imageW {
+    width: 80%;
+    height: 150%;
+    margin-top: 250px;
+    margin-left: 680px;
+    position: center;
+}
+
+.texteW{
+    position:center;
+    left: 10%;
+    top: 150%;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 320px;
+    margin-top: -420px;
+    
+}
